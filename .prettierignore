@@ -1,0 +1,29 @@
+# Ignore files and folders
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Ignore generated files
+*.min.js
+*.min.css
+
+# Ignore package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore log files
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
